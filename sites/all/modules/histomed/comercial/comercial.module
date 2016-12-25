@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Comercial feature.
+ */
+
+include_once 'comercial.features.inc';

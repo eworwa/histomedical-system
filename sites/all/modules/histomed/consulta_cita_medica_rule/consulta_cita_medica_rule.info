@@ -1,0 +1,12 @@
+name = Consulta Cita Medica Rule
+description = Regla para generar una cita médica a partir de una consulta médica con fecha de próxima consulta.
+core = 7.x
+package = Histomed
+version = 7.x-1.0
+project = consulta_cita_medica_rule
+dependencies[] = cita_medica
+dependencies[] = consulta_medica
+dependencies[] = entity
+dependencies[] = rules
+features[features_api][] = api:2
+features[rules_config][] = rules_crear_cita_desde_consulta

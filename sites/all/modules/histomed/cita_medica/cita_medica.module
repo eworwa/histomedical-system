@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Cita Medica feature.
+ */
+
+include_once 'cita_medica.features.inc';

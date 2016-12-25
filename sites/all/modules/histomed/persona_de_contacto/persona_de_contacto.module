@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Persona de Contacto feature.
+ */
+
+include_once 'persona_de_contacto.features.inc';

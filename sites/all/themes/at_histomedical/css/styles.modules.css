@@ -1,0 +1,162 @@
+/* Contrib Module */
+
+/* Ubercart */
+.cart-block-summary-links ul.links li {
+  border-right: 0;
+}
+
+/* Views */
+.views-view-grid h1 {
+  font-size: 1.25em;
+}
+
+.views-exposed-form input[type="text"] {
+  border: 2px solid #dadee2;
+}
+
+.views-exposed-form .views-exposed-widget .form-submit {
+  margin-left: 10px;
+  margin-top: 2.3em;
+}
+
+.view ul.pager > li {
+  background: #5dade2;
+  border: 0;
+  border-radius: 4px;
+  float: none;
+  line-height: 30px;
+  height: 30px;
+  margin: 0 5px 0 0;
+  padding: 5px 20px;
+  line-height: 175%;
+  color: #ffffff;
+  height: 30px;
+  font-size: 0.8em;
+}
+
+.view ul.pager li a {
+  color: #fff;
+}
+
+/* Views slideshow */
+.view-content .skin-default img {}
+.views-slideshow-controls-top,
+.views-slideshow-controls-bottom {}
+.views-slideshow-controls-top {}
+.views-slideshow-controls-bottom {}
+.views-slideshow-controls-top {}
+.views-slideshow-controls-bottom {}
+
+
+
+/* Superfish
+   sf-horizontal - classic drop menu style */
+.nav .block-superfish,
+.sf-horizontal {
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Quicktabs */
+.block-quicktabs .block-inner .block-inner,
+.sidebar .block-quicktabs .block-inner .block-inner {
+}
+.block-quicktabs .block-content,
+.sidebar .block-quicktabs .block-content {
+}
+.block-quicktabs .block-content-inner,
+.sidebar .block-quicktabs .block-content-inner {
+}
+.block-quicktabs ul.quicktabs-tabs {;
+}
+.block-quicktabs ul.quicktabs-tabs li{
+}
+.quicktabs-style-nostyle ul.quicktabs_tabs {
+}
+.quicktabs-style-nostyle ul.quicktabs_tabs li {
+}
+.quicktabs-style-nostyle ul.quicktabs_tabs li a {
+}
+
+/* Date/Calendar */
+.calendar-calendar div.date-nav {
+  border: 0;
+  padding: 1px;
+}
+.calendar-calendar td {
+  text-align: center;
+}
+.calendar-calendar th.days {
+  border: 0;
+}
+.calendar-calendar td.calendar-agenda-hour {
+  border-style: solid none none;
+}
+.calendar-calendar td.calendar-agenda-items {
+  border-style: solid;
+}
+.calendar-calendar td.calendar-agenda-hour {
+  border-style: none none solid solid;
+  border-width: 1px;
+}
+.calendar-calendar td.calendar-agenda-hour .calendar-hour {
+  padding: 0 5px;
+  white-space: nowrap;
+}
+.calendar-calendar div.calendar {
+  font-size: 1em;
+}
+.calendar-calendar td .inner div.calendar div {
+  border: 0;
+  padding: 0 5px;
+}
+.calendar-calendar td .inner div.calendar div a {
+  padding: 0;
+  font-weight: 700;
+  text-decoration: underline;
+}
+.week-view .calendar-calendar td .inner div,
+.week-view .calendar-calendar td .inner div a {
+  border-bottom: 1px solid #fff;
+}
+.calendar-calendar td.empty {
+    background: none;
+}
+.view-content .calendar-calendar ul.inline {
+  padding: 0 0 10px;
+  display: block;
+}
+.view-content .calendar-calendar ul.inline li {
+  margin-right: 2px;
+}
+.block .calendar-calendar .month-view table {
+  border: 2px solid #fff;
+  clear: both;
+  margin: 0;
+  padding: 3px;
+}
+.calendar-calendar .inner {
+  padding: 1px;
+}
+
+/* =============================================================================
+ *   ADS LIST
+ * ========================================================================== */
+.adslist {
+    background-color: #6ADAE4;
+    border-color: #6ADAE4;
+    color: #FFF;
+    padding: 8px 35px 8px 14px;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* =============================================================================
+ *   DATE
+ * ========================================================================== */
+fieldset.date-combo .container-inline-date .date-padding {
+  width: 100% !important;
+  padding: 5px !important;
+}

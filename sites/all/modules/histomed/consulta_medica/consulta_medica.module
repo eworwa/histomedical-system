@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Consulta Medica feature.
+ */
+
+include_once 'consulta_medica.features.inc';

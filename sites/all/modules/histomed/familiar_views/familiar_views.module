@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Familiar Views feature.
+ */
+
+include_once 'familiar_views.features.inc';

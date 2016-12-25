@@ -1,0 +1,250 @@
+/* General */
+body, a, p, li, span, h1, h2, h3, h4, h5, h6, div{font-family: "Open Sans", Arial, sans-serif !important;}
+.art-layout-cell.art-content{padding: 0px !important;}
+.art-layout-cell.art-content>div,
+.art-layout-cell.art-content>article{margin: 0px 20px;}
+.art-block ul>li::before{content: none !important;}
+.art-block ul>li{list-style-image: url('images/blockbullets.png') !important;padding-left: 0px !important;}
+fieldset{border: solid 1px lightgray;}
+.chosen-container{max-width: 300px !important;}
+div.art-button{display: inline-block;}
+div.art-button a{text-decoration: none !important;font-size: 13px !important;font-weight: normal;font-style: normal;display: inline-block;vertical-align: middle;white-space: nowrap;text-align: center;color: #FFFFFF !important;margin: 0 5px 0 0 !important;overflow: visible;cursor: pointer;text-indent: 0;line-height: 30px !important;-webkit-box-sizing: content-box !important;-moz-box-sizing: content-box !important;box-sizing: content-box !important;}
+.autocomplete-deluxe-container{width: 289px !important;}
+.arttabs_primary{display: none;}
+body.rol-webmaster .arttabs_primary,
+body.page-event-created .arttabs_primary{/*background-color: #EAEDF1;*/display: block !important;} /* mostrar para rol=webmaster, y paginas de calendario */
+.group-botonera>div,
+.group-botonera>form{display: inline-block;margin-right: 10px;}
+.label-inline,
+.label-above,
+.fieldset-legend,
+.views-label{font-weight: bold;}
+.rounded-corner-box{border: solid 1px lightgray;margin: 20px 50px;-webkit-border-radius: 20px !important;-moz-border-radius-: 20px !important;border-radius: 20px !important;padding: 20px;}
+.custom-title{font-size: 24px;font-weight: normal !important;}
+.label-field-inline div{display: inline-block;} /* it have to be used in the wrapper element of the field */
+
+/* Correccion de imagen 'loading' en formularios autocomplete */
+/*input.form-autocomplete{background-image: url(images/custom-throbber.gif) !important;}*/
+
+/* Articulos */
+article.art-post{background-color: #fff;padding: 0px;}
+article.art-post h1{margin: 0px !important;height: 50px;border-radius: 4px 4px 0 0;color: #F1F1F1 !important;font-size: 20px !important;line-height: 50px !important;font-weight: normal !important;padding-left: 65px;background: url('images/heading1-image.png') #595F69 no-repeat left center;}
+article.art-post .art-postcontent>.region-content{padding: 15px;-webkit-border-radius: 0 0 3px 3px;-moz-border-radius-: 0 0 3px 3px;border-radius: 0 0 3px 3px;margin-bottom: 20px;}
+
+/* Webforms */
+article.art-post .art-postcontent>.art-article{padding: 15px;-webkit-border-radius: 0 0 3px 3px;-moz-border-radius-: 0 0 3px 3px;border-radius: 0 0 3px 3px;margin-bottom: 20px;}
+
+/* Cabecera */
+.region-art-header .block{display: inline-block;vertical-align: top;line-height: 50px;border-right: 1px solid rgba(0, 0, 0, 0.3);margin-top: 5px;}
+body.logged-in header{background-color: #20262E;}
+body.not-logged-in header{display: none;}
+
+/* Logo */
+#block-delta-blocks-logo{padding-right: 35px;height: 55px;}
+
+/* Contenido principal */
+.art-layout-cell.art-content{padding: 20px;}
+
+/* Publicidad */
+.adslist{background-color: #6ADAE4;border-color: #6ADAE4;color: #fff;padding: 8px 35px 8px 14px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;margin-top: 20px;margin-bottom: 20px;}
+.adslist p{color: #fff;font-size: 16px;}
+.adslist a{color: #fff;font-weight: bold;text-decoration: none;}
+.adslist::after{content: 'Publicidad/Advertising';display: block;text-align: right;font-size: 10px;margin-top: 5px;}
+
+/* Pagina de login, nueva cuenta y nueva contrasena */
+body.not-logged-in article{margin: auto !important;max-width: 50%;/*min-width: 250px;*/-webkit-border-radius: 10px;-moz-border-radius: 10;border-radius: 10px;}
+body.not-logged-in article .arttabs_primary,
+body.not-logged-in article h1{display: none;}
+body.not-logged-in article form input[type=text],
+body.not-logged-in article form input[type=password],
+body.not-logged-in article form .chosen-container{width: 100% !important;}
+body.not-logged-in article form .chosen-container input[type=text]{width: 220px !important;}
+/* Fieldset terminos de uso */
+body.not-logged-in #edit-terms-of-use .fieldset-wrapper>div:first-child{height: 200px;overflow-x: hidden;overflow-y: scroll;font-size: 12px;border: solid 1px gray;}
+body.not-logged-in #edit-terms-of-use .fieldset-wrapper p,
+body.not-logged-in #edit-terms-of-use .fieldset-wrapper ul li{width: 90%;  margin-left: 10px;}
+body.not-logged-in #edit-terms-of-use .fieldset-wrapper>p{display: none;}
+
+/* Menu de usuarios no loggeados */
+#block-menu-menu-not-loged-in-users{background-color: #fff;margin: auto !important;max-width: 50%;min-width: 250px;padding: 10px;-webkit-border-radius: 10px;-moz-border-radius: 10;border-radius: 10px;}
+#block-menu-menu-not-loged-in-users ul.menu{text-align: center;}
+#block-menu-menu-not-loged-in-users ul.menu li{display: inline-block;}
+/* Menu de documentos legales */
+#block-menu-menu-documentos-legales{margin: auto !important;}
+#block-menu-menu-documentos-legales ul.menu{text-align: center;}
+#block-menu-menu-documentos-legales ul.menu li{display: inline-block;}
+/* Ventanas emergentes de documentos legales */
+body.not-logged-in div#lightbox article{max-width: 95% !important;width: 95% !important;}
+body.not-logged-in div#lightbox article h1{display: block;}
+
+/* Barra de búsqueda */
+#block-views-exp-busqueda-pacientes-page{margin-bottom: 20px;}
+#views-exposed-form-busqueda-pacientes-page .error{border: 2px solid #DADEE2;}
+#views-exposed-form-busqueda-pacientes-page #edit-search-api-views-fulltext-wrapper{width: 88%;}
+#views-exposed-form-busqueda-pacientes-page input[type=text]{width: 100%!important;}
+#views-exposed-form-busqueda-pacientes-page .views-submit-button{width: 9%;padding: 28px 0px 0px 0px;}
+#views-exposed-form-busqueda-pacientes-page .compact-form-label{top: 13px;}
+
+/* Regiones top1, 2 y 3 */
+#top-regions{margin-bottom: 20px;}
+#top-regions .third-width{/*padding-right: 10px;*/}
+#top-regions .block{border-radius: 20px;background-color: #fff;min-height: 242px;padding: 10px;margin: 5px 15px 0px;}
+#top-regions .block h3{border-bottom: 1px solid #EAEDF1;font-size: 17px;font-weight: normal;margin: 0 0 10px;padding: 0 0 10px;text-align: center;color: rgb(158, 167, 179);}
+.region-top1 .block{margin-left: 0px !important;}
+.region-top3 .block{margin-right: 0px !important;}
+
+/* Pagina verificacion de recipe medico */
+#views-exposed-form-Farmaceutas-page #edit-nid-wrapper{width: 88%;}
+#views-exposed-form-Farmaceutas-page .views-submit-button{width: 9%;padding: 35px 0px 0px 0px;}
+#views-exposed-form-Farmaceutas-page input.error{border: 2px solid #D8F5F8}
+#views-exposed-form-Farmaceutas-page .compact-form-label{top: 13px;}
+
+/* Formulario Mi cuenta */
+#user-profile-form .form-item-pass-pass1 .compact-form-label,
+#user-profile-form .form-item-pass-pass2 .compact-form-label{top: 50px;}
+
+/* Breadcrumbs */
+#banner1{margin: 0px !important;}
+#block-delta-blocks-breadcrumb{padding: 6px 20px;background-color: #FFFFFF !important;border-bottom: 1px solid #E0E7EF;color: #9ea7b3!important;font-size: 13.5px;line-height: 20px;}
+#block-delta-blocks-breadcrumb ul.breadcrumb{margin: 0px;}
+#block-delta-blocks-breadcrumb ul.breadcrumb li{display: inline-block;padding: 3px 5px;background: url('images/items-breadcrumb.png') no-repeat left 3px;padding-left: 17px;}
+#block-delta-blocks-breadcrumb ul.breadcrumb li.first{background: url('images/home-breadcrumb.png') no-repeat left 5px;}
+#block-delta-blocks-breadcrumb ul.breadcrumb li a{text-decoration: none;color: #9EA7B3 !important;}
+#block-delta-blocks-breadcrumb ul.breadcrumb li a:hover{color: #9BCFEA !important;}
+
+/* Bloque bienvenido */
+.bloque-bienvenido{background: url('images/profile-icon.png') no-repeat 5px center;color: #fff;padding: 0px 10px 0px 30px;}
+.bloque-bienvenido a{color: #fff;text-decoration: none;}
+
+/* Paginas preview de impresion */
+body.page-imprimir h1{margin-top: 10px !important;}
+body.page-imprimir li{background-image: url('images/postbullets.png');background-position: left 9px;background-repeat: no-repeat;}
+body.page-imprimir li::before{content: none;}
+
+/* Menu de impresion (opciones de consulta) */
+.menu-impresion .views-field{margin-bottom: 10px !important;}
+
+/* Menu no-login */
+#block-menu-menu-not-loged-in-users li::before{content: none;}
+
+/* Pagina preguntas frecuentes */
+.preguntas-frecuentes-top .attachment li::before{content: none;}
+.preguntas-frecuentes-top h3 a{text-decoration: none;}
+
+/* Formularios filtros de vistas (general) */
+.view-filters{margin-bottom: 25px;}
+.view-filters .views-submit-button{margin-top: 20px;}
+
+/* Tablas (general) */
+table.views-table th{background: #323A45;color: #ffffff;text-transform: uppercase;font-weight: normal;}
+table.views-table tr:hover td{background-color: #E0F7F9;}
+
+/* Calendario de citas */
+.view-calendario-proximas-citas a{font-size: 10px !important;line-height: 15px !important;color: red !important;}
+.calendar-calendar td .inner div.calendar div a{font-weight: normal;text-decoration: none;}
+
+/* Detalle de Consulta */
+.menu-impresion .views-field{display: inline-block;}
+
+/* Paginas 403/404 */
+p.azul-grande{color: rgb(106, 218, 228);line-height: 172px;font-size: 172px;font-weight: bold;font-style: normal;text-transform: uppercase;}
+p.azul-medio a{color: rgb(106, 218, 228) !important;font-size: 35px !important;line-height: 35px !important;text-decoration: none  !important;font-weight: normal;text-transform: none;}
+
+/* Formulario creacion antecedentes familiares (en historia medica) */
+#edit-field-antecedentes-familiares .form-item-field-antecedentes-familiares-und-form-title,
+#edit-field-antecedentes-familiares .field-name-field-parentesco,
+#edit-field-antecedentes-familiares .field-name-field-edad,
+#edit-field-antecedentes-familiares .field-name-field-vivo
+{display: inline-block;vertical-align: top;padding-right: 5px;margin-right: 5px;height: 85px;}
+#edit-field-antecedentes-familiares .form-item-field-antecedentes-familiares-und-form-title{margin-bottom: 0px;}
+#edit-field-antecedentes-familiares .field-name-field-edad input[type=text]{width: 85px;}
+#edit-field-antecedentes-familiares .field-name-field-vivo .form-radios>div{display: inline-block;margin-right: 10px;}
+#edit-field-antecedentes-familiares .field-name-field-vivo{border-right: 0px !important;}
+
+/* Formulario creacion detalle de habito (en consulta medica) */
+#edit-field-detalles-de-habito{margin-bottom: 10px;}
+#edit-field-detalles-de-habito td{border: 0px !important;}
+#edit-field-detalles-de-habito thead,
+#edit-field-detalles-de-habito td.field-multiple-drag,
+#edit-field-detalles-de-habito td.tabledrag-hide,
+#edit-field-detalles-de-habito .tabledrag-toggle-weight-wrapper{display: none;}
+#edit-field-detalles-de-habito td>div,
+#edit-field-detalles-de-habito td>div>div,
+#edit-field-detalles-de-habito td input[type=submit]{display: inline-block;margin-right: 5px !important;}
+
+/* Conducta a seguir, formulario de creacion de consulta medica */
+.group-conducta-a-seguir .fieldset-wrapper table.field-multiple-table{margin-bottom: 10px;}
+.group-conducta-a-seguir .fieldset-wrapper .tabledrag-toggle-weight-wrapper,
+.group-conducta-a-seguir .fieldset-wrapper td.field-multiple-drag{display: none;}
+.group-conducta-a-seguir .fieldset-wrapper table th{text-align: left;}
+.group-conducta-a-seguir .fieldset-wrapper th,
+.group-conducta-a-seguir .fieldset-wrapper td{border: 0px;}
+/*.group-conducta-a-seguir .fieldset-wrapper #edit-field-tratamiento .form-wrapper{display: inline-block;margin-right: 5px;vertical-align: top;}
+.group-conducta-a-seguir .fieldset-wrapper #edit-field-tratamiento table td .field-name-field-indicacion,
+.group-conducta-a-seguir .fieldset-wrapper #edit-field-tratamiento table td input[type=submit]{margin-top: 21px !important; *}*/
+.group-conducta-a-seguir .fieldset-wrapper #edit-field-tratamiento table td .field-name-field-indicacion{margin-bottom: 5px;}
+.field-name-field-conducta-a-seguir .form-checkboxes .form-item{display: inline-block;margin-right: 15px;min-width: 235px;}
+
+/* Formulario de creacion de antecedentes familiares (en historia medica) */
+#edit-field-antecedentes-familiares .tabledrag-toggle-weight-wrapper,
+#edit-field-antecedentes-familiares table thead,
+#edit-field-antecedentes-familiares .ief-tabledrag-handle,
+#edit-field-antecedentes-familiares .inline-entity-form-node-status{display: none;}
+
+/* Formulario de creacion de persona de contacto (en paciente) */
+#edit-field-personas-de-contacto .tabledrag-toggle-weight-wrapper,
+#edit-field-personas-de-contacto table thead,
+#edit-field-personas-de-contacto .ief-tabledrag-handle,
+#edit-field-personas-de-contacto .inline-entity-form-node-status{display: none;}
+
+/* Pagina detalle de paciente -> full view */
+.node-paciente.view-mode-full>fieldset{display: inline-block;width: 47%;vertical-align: top;}
+.node-paciente.view-mode-full fieldset.group-consultas{width: 96%;}
+.node-paciente.view-mode-full .wrapper-campo>div{display: inline-block;vertical-align: top;}
+.node-paciente.view-mode-full .wrapper-campo.campo-personas-de-contacto>div{display: block !important;}
+.node-paciente.view-mode-full .views-field-field-impresion-diagnostica ul{margin-left: 0px !important;}
+.node-paciente.view-mode-full .views-field-field-impresion-diagnostica li{background-image: url('images/postbullets.png');background-position: left 9px;background-repeat: no-repeat;}
+.node-paciente.view-mode-full .views-field-field-impresion-diagnostica li::before{content: none;}
+
+/* Pagina 'mis consultas' */ 
+.pagina-mis-consultas ul{margin-left: 0px !important;}
+.pagina-mis-consultas li{background-image: url('images/postbullets.png');background-position: left 9px;background-repeat: no-repeat;}
+.pagina-mis-consultas li::before{content: none !important;}
+
+/* Positive SSL Logo */
+.positive-ssl-logo{text-align: center;margin-top: 10px;}
+
+/* Pagina comprar licencia */
+div.view-comprar-licencia div.views-row{float: left;width: 50%;}
+div.view-comprar-licencia div.art-article{border: solid 1px lightgray;margin: 20px 50px;-webkit-border-radius: 20px !important;-moz-border-radius-: 20px !important;border-radius: 20px !important;}
+div.view-comprar-licencia div.commerce-product-title-label{display: none;}
+div.view-comprar-licencia div.views-row div.commerce-product-title,
+div.view-comprar-licencia div.views-row div.field{text-align: center;}
+div.view-comprar-licencia div.art-postmetadataheader{display: none;}
+div.view-comprar-licencia div.commerce-product-title{font-size: 24px;}
+div.view-comprar-licencia div.field-name-commerce-price{font-size: 36px;margin: 20px 0px;}
+
+/* Modal overlay (modal en inicio de sesion cuando la licencia esta vencida) */
+div.info-compra{float:left;width: 50%;text-align: center;}
+
+/* Pagina Mi Suscripcion */
+/*.views-field-line-item-title{font-size: 24px;}
+.views-field-commerce-unit-price{font-size: 36px;margin: 20px 0px;}
+.view-user-last-recurring-order>.view-content>.views-row-first>div.views-field{}
+.view-user-last-recurring-order .view-footer{clear: both;}*/
+
+/* Formulario de soporte tecnico (not logged in users) */
+.not-logged-in div.webform div.art-postmetadataheader{display: none;}
+.not-logged-in div.webform div.art-postcontent{margin-bottom: 20px;}
+.not-logged-in div.webform article{max-width: 51% !important}
+
+/* Field collection Tratamiento */
+.field-name-field-tratamiento .tabledrag-toggle-weight-wrapper{display: none;}
+.field-name-field-tratamiento th,
+.field-name-field-tratamiento td{border: 0px !important;}
+.field-name-field-tratamiento th{text-align: left;}
+.field-name-field-tratamiento .form-wrapper{display: inline-block;margin-right: 10px;}
+.field-name-field-tratamiento .autocomplete-deluxe-form.form-text{height: 27px;}
+.field-name-field-tratamiento .autocomplete-deluxe-closed{background-position-y: 10px !important;}
+.field-name-field-tratamiento .autocomplete-deluxe-open{background-position-y: -13px !important;}
+

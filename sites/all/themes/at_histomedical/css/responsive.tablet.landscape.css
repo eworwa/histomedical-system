@@ -1,0 +1,75 @@
+.hl-r #logo {
+  padding: 0 3px 7px 0;
+}
+.hl-l #logo {
+  padding: 0 0 7px 3px;
+}
+#site-name {
+  font-size: 2em;
+  white-space: pre;
+}
+/* Force tableviews-view-grid to not be like a table anymore */
+table.views-view-grid,
+table.views-view-grid thead,
+table.views-view-grid tbody,
+table.views-view-grid th,
+table.views-view-grid td,
+table.views-view-grid tr {
+  display: block;
+  padding: 0;
+}
+/* Hide table headers */
+table.views-view-grid thead tr {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+.views-view-grid td {
+  float: left;
+}
+.views-view-grid .field-type-image img {
+  padding-left: 0;
+  padding-right: 0;
+}
+/**
+ * Cambios septiembre, 2016
+ * pagina principal para los usuarios anonimos
+ */
+.not-logged-in.page-home #block-user-login #user-login-form .item-list {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.not-logged-in.page-home #block-user-login {
+  min-width: 100%;
+}
+.not-logged-in .block-region-header.logo-no-login {
+  margin-left: 45% !important;
+}
+.not-logged-in.page-home #user-login-form {
+  margin-left: 5%;
+  margin-top: -50px;
+}
+.not-logged-in.page-home .region-header {
+  min-height: 325px !important;
+}
+.not-logged-in.page-home .block-region-content .pane-formblock {
+  max-width: 90% !important;
+}
+.not-logged-in.page-home .region-two-50-first,
+.not-logged-in.page-home .region.region-two-50-second,
+.not-logged-in.page-home #block-user-login #user-login-form .form-item,
+.not-logged-in.page-home #user-register-form .form-item {
+  width: 100% !important;
+}
+.not-logged-in.page-home #user-register-form .password-confirm,
+.not-logged-in.page-home #user-register-form #edit-account .form-item-name,
+.not-logged-in.page-home #user-register-form #edit-account .form-item-mail,
+.not-logged-in.page-home #user-register-form .field-name-field-nombre,
+.not-logged-in.page-home #user-register-form .field-name-field-apellido {
+  width: 100% !important;
+}
+.not-logged-in.page-home #block-user-login #user-login-form .form-actions {
+  float: none;
+  margin-top: 10px;
+  margin-right: 0px;
+}

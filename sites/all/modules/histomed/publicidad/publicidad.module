@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Publicidad feature.
+ */
+
+include_once 'publicidad.features.inc';

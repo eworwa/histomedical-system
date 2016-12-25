@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Avisos Legales feature.
+ */
+
+include_once 'avisos_legales.features.inc';

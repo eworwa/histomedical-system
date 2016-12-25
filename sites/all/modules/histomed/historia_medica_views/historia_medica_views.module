@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Historia Medica Views feature.
+ */
+
+include_once 'historia_medica_views.features.inc';

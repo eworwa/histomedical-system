@@ -1,0 +1,66 @@
+/* Menu principal */
+#block-system-main-menu ul.art-vmenu>li>a{padding: 0 0 0 30px !important;background-position: 5px center;background-repeat: no-repeat;}
+#block-system-main-menu ul.art-vmenu>li>ul.menu>li>a{padding: 0 0 0 60px !important;background-position: 35px center;background-repeat: no-repeat;}
+
+/* icons 1st level (negro) */
+#block-system-main-menu .menu-item-calendario{background-image: url('images/menu-icons/negro/calendario.png');}
+#block-system-main-menu .menu-item-clip{background-image: url('images/menu-icons/negro/clip.png');}
+#block-system-main-menu .menu-item-audifono{background-image: url('images/menu-icons/negro/audifono.png');}
+#block-system-main-menu .menu-item-grafica{background-image: url('images/menu-icons/negro/grafica.png');}
+#block-system-main-menu .menu-item-computador{background-image: url('images/menu-icons/negro/computador.png');}
+#block-system-main-menu .menu-item-teclado{background-image: url('images/menu-icons/negro/teclado.png');}
+#block-system-main-menu .menu-item-laboratorio{background-image: url('images/menu-icons/negro/laboratorio.png');}
+#block-system-main-menu .menu-item-salir{background-image: url('images/menu-icons/negro/salir.png');}
+#block-system-main-menu .menu-item-ficha{background-image: url('images/menu-icons/negro/ficha.png');}
+#block-system-main-menu .menu-item-hoja{background-image: url('images/menu-icons/negro/hoja.png');}
+#block-system-main-menu .menu-item-video{background-image: url('images/menu-icons/negro/video.png');}
+#block-system-main-menu .menu-item-casa{background-image: url('images/menu-icons/negro/casa.png');}
+#block-system-main-menu .menu-item-contactos{background-image: url('images/menu-icons/negro/contactos.png');}
+#block-system-main-menu .menu-item-ayuda{background-image: url('images/menu-icons/negro/ayuda.png');}
+#block-system-main-menu .menu-item-mi_cuenta{background-image: url('images/menu-icons/negro/mi_cuenta.png');}
+#block-system-main-menu .menu-item-pacientes{background-image: url('images/menu-icons/negro/pacientes.png');}
+#block-system-main-menu .menu-item-preguntas{background-image: url('images/menu-icons/negro/preguntas.png');}
+#block-system-main-menu .menu-item-consultas{background-image: url('images/menu-icons/negro/consultas.png');}
+#block-system-main-menu .menu-item-usuarios{background-image: url('images/menu-icons/negro/usuarios.png');}
+
+/* icons 2nd level (gris) */
+#block-system-main-menu .menu-item-gris.menu-item-calendario{background-image: url('images/menu-icons/gris/calendario.png');}
+#block-system-main-menu .menu-item-gris.menu-item-clip{background-image: url('images/menu-icons/gris/clip.png');}
+#block-system-main-menu .menu-item-gris.menu-item-audifono{background-image: url('images/menu-icons/gris/audifono.png');}
+#block-system-main-menu .menu-item-gris.menu-item-grafica{background-image: url('images/menu-icons/gris/grafica.png');}
+#block-system-main-menu .menu-item-gris.menu-item-computador{background-image: url('images/menu-icons/gris/computador.png');}
+#block-system-main-menu .menu-item-gris.menu-item-teclado{background-image: url('images/menu-icons/gris/teclado.png');}
+#block-system-main-menu .menu-item-gris.menu-item-laboratorio{background-image: url('images/menu-icons/gris/laboratorio.png');}
+#block-system-main-menu .menu-item-gris.menu-item-salir{background-image: url('images/menu-icons/gris/salir.png');}
+#block-system-main-menu .menu-item-gris.menu-item-ficha{background-image: url('images/menu-icons/gris/ficha.png');}
+#block-system-main-menu .menu-item-gris.menu-item-hoja{background-image: url('images/menu-icons/gris/hoja.png');}
+#block-system-main-menu .menu-item-gris.menu-item-video{background-image: url('images/menu-icons/gris/video.png');}
+#block-system-main-menu .menu-item-gris.menu-item-casa{background-image: url('images/menu-icons/gris/casa.png');}
+#block-system-main-menu .menu-item-gris.menu-item-contactos{background-image: url('images/menu-icons/gris/contactos.png');}
+#block-system-main-menu .menu-item-gris.menu-item-ayuda{background-image: url('images/menu-icons/gris/ayuda.png');}
+#block-system-main-menu .menu-item-gris.menu-item-mi_cuenta{background-image: url('images/menu-icons/gris/mi_cuenta.png');}
+#block-system-main-menu .menu-item-gris.menu-item-pacientes{background-image: url('images/menu-icons/gris/pacientes.png');}
+#block-system-main-menu .menu-item-gris.menu-item-preguntas{background-image: url('images/menu-icons/gris/preguntas.png');}
+#block-system-main-menu .menu-item-gris.menu-item-consultas{background-image: url('images/menu-icons/gris/consultas.png');}
+#block-system-main-menu .menu-item-gris.menu-item-usuarios{background-image: url('images/menu-icons/gris/usuarios.png');}
+
+/* ::hover */
+#block-system-main-menu .menu-item-calendario:hover:hover{background-image: url('images/menu-icons/blanco/calendario.png');}
+#block-system-main-menu .menu-item-clip:hover{background-image: url('images/menu-icons/blanco/clip.png');}
+#block-system-main-menu .menu-item-audifono:hover{background-image: url('images/menu-icons/blanco/audifono.png');}
+#block-system-main-menu .menu-item-grafica:hover{background-image: url('images/menu-icons/blanco/grafica.png');}
+#block-system-main-menu .menu-item-computador:hover{background-image: url('images/menu-icons/blanco/computador.png');}
+#block-system-main-menu .menu-item-teclado:hover{background-image: url('images/menu-icons/blanco/teclado.png');}
+#block-system-main-menu .menu-item-laboratorio:hover{background-image: url('images/menu-icons/blanco/laboratorio.png');}
+#block-system-main-menu .menu-item-salir:hover{background-image: url('images/menu-icons/blanco/salir.png');}
+#block-system-main-menu .menu-item-ficha:hover{background-image: url('images/menu-icons/blanco/ficha.png');}
+#block-system-main-menu .menu-item-hoja:hover{background-image: url('images/menu-icons/blanco/hoja.png');}
+#block-system-main-menu .menu-item-video:hover{background-image: url('images/menu-icons/blanco/video.png');}
+#block-system-main-menu .menu-item-casa:hover{background-image: url('images/menu-icons/blanco/casa.png');}
+#block-system-main-menu .menu-item-contactos:hover{background-image: url('images/menu-icons/blanco/contactos.png');}
+#block-system-main-menu .menu-item-ayuda:hover{background-image: url('images/menu-icons/blanco/ayuda.png');}
+#block-system-main-menu .menu-item-mi_cuenta:hover{background-image: url('images/menu-icons/blanco/mi_cuenta.png');}
+#block-system-main-menu .menu-item-pacientes:hover{background-image: url('images/menu-icons/blanco/pacientes.png');}
+#block-system-main-menu .menu-item-preguntas:hover{background-image: url('images/menu-icons/blanco/preguntas.png');}
+#block-system-main-menu .menu-item-consultas:hover{background-image: url('images/menu-icons/blanco/consultas.png');}
+#block-system-main-menu .menu-item-usuarios:hover{background-image: url('images/menu-icons/blanco/usuarios.png');}

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Busqueda de Paciente feature.
+ */
+
+include_once 'busqueda_de_paciente.features.inc';

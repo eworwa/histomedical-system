@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Historia Medica feature.
+ */
+
+include_once 'historia_medica.features.inc';

@@ -1,0 +1,12 @@
+name = Traducciones Espanol
+description = Traducciones a Español del sistema Histomed.
+core = 7.x
+package = Histomed
+version = 7.x-1.0
+project = traducciones_espanol
+dependencies[] = features
+dependencies[] = features_translations
+dependencies[] = locale
+features[features_api][] = api:2
+features[language][] = es
+features[translations_es][] = es:default

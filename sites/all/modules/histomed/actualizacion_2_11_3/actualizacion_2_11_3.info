@@ -1,0 +1,14 @@
+name = Actualizacion 2.11.3
+description = Acciones varias realizadas en la actualización del sistema V2.11.3
+core = 7.x
+package = Histomed
+version = 7.x-1.0
+project = actualizacion_2_11_3
+dependencies[] = rules
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[rules_config][] = rules_actualizar_campo_nombre_de_paciente
+features[views_view][] = paciente_actualizar_data
+features_exclude[dependencies][ctools] = ctools
+features_exclude[dependencies][entity] = entity

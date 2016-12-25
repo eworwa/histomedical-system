@@ -1,0 +1,868 @@
+
+/* Clean file for your awesome overrides, enable in the info file to use. */
+/* =============================================================================
+ *   OVERLAY
+ * ========================================================================== */
+#secondary-content-wrapper .texture-overlay {
+  border-bottom: 0px !important;
+}
+
+#secondary-content-wrapper .texture-overlay .block {
+  background: none;
+}
+
+#page-wrapper #content-wrapper {
+  border-bottom: 0px;
+  border-top: 0px;
+  min-width: 200px;
+}
+#header-wrapper {
+  min-width: 280px;
+}
+/* =============================================================================
+ *   FONT FACES
+ * ========================================================================== */
+.fa:before {
+  float: left;
+  font-family: FontAwesome !important;
+}
+
+.fa-tags::before {
+  background: #323a45;
+  margin-right: 15px;
+  margin-top: -12px;
+  min-height: 32px;
+  min-width: 20px;
+  padding-left: 20px;
+  padding-right: 15px;
+  padding-top: 20px;
+  border-radius: 4px 4px 0 0;
+}
+
+#breadcrumb ol#crumbs .fa:before {
+  margin-top: 7px;
+}
+
+#breadcrumb ol#crumbs .crumb-separator.fa:before {
+  margin-left: 4px;
+  margin-right: 3px;
+}
+
+.region-header .fa-user:before {
+  padding-left: 6px;
+  margin-right: 10px;
+  background: #161b20;
+  height: 20px;
+  width: 20px;
+  padding-top: 4px;
+  padding-bottom: 3px;
+}
+
+#block-menu-menu-documentos-legales ul li.fa:before {
+  padding-right: 10px;
+}
+
+.fa{font-family: "Open Sans" !important;}
+
+/* =============================================================================
+ *   Headings
+ * ========================================================================== */
+h1 {
+  background: #595f69;
+  border-radius: 4px 4px 0 0;
+  color: #f1f1f1;
+  font-size: 1.5em !important;
+  font-weight: normal;
+  min-height: 35px;
+  margin: 0;
+  padding-right: 15px !important;
+  padding-top: 3px !important;
+}
+
+h1 a {
+  margin-top: 10px;
+}
+
+/* =============================================================================
+ *   Links and breadcrumb
+ * ========================================================================== */
+.region-sidebar-first {
+  margin-top: 60px !important;
+}
+
+#content-wrapper #breadcrumb + #columns .region-sidebar-first {
+  margin-top: 15px !important;
+}
+
+.not-logged-in #content-wrapper section#breadcrumb,
+.not-logged-in #tasks,
+.not-logged-in .title-page {
+  display: none !important;
+}
+
+.not-logged-in #tasks {
+  display: none;
+}
+
+#content-wrapper section#breadcrumb {
+  background-color: #FFFFFF;
+  border-top: 1px solid #DADEE2;
+  color: #9EA7B3;
+  height: 30px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  padding: 10px 25px 0;
+  padding-top: 5px;
+  width: 73.5% !important;
+  float: right;
+  margin-right: 10px;
+}
+
+a, h2, h3, .title {
+  color: #7C8898 !important;
+  cursor:pointer;	
+}
+
+.simplead-container a:hover {
+  color: #20262e !important;
+}
+
+a:hover {
+  color: #6ADAE4 !important;
+}
+
+#breadcrumb a:link,
+#breadcrumb a:visited,
+#breadcrumb a:active,
+#breadcrumb a.active,
+#breadcrumb li a.active,
+#breadcrumb ol#crumbs .icon-cog {
+  color: #9EA7B3 !important;
+}
+
+#breadcrumb ol#crumbs .icon-cog:hover,
+#breadcrumb ol#crumbs .icon-cog:focus,
+#breadcrumb a:hover,
+#breadcrumb a:focus {
+  color: #9BCFEA !important;
+  text-decoration: none;
+}
+
+#breadcrumb ol#crumbs {
+  padding-left: 5px;
+}
+
+/* =============================================================================
+ *   Regions Styling
+ * ========================================================================== */
+.region {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.content {
+  text-align: justify;
+}
+
+.block-region-sidebar-first {
+  padding-bottom: 145px !important;
+}
+
+.region-header .block {
+  border-left: 1px solid #161b20;
+  border-right: 1px solid #161b20;
+}
+
+.region-header .block {
+  color: #FFFFFF !important;
+  float: left;
+}
+
+.region-header .block a,
+.art-button a,
+.form-submit, .art-button {
+  color: #FFFFFF !important;
+  padding-top: 5px;
+}
+
+.art-button {
+   text-align: center !important;
+}
+
+.region-page-top + #page-wrapper .region-header {
+  position: relative;
+}
+
+.region-two-50-top .block {
+  background: none;
+}
+
+.region-header {
+  background-color: #20262e;
+  background-image: url("../images/header.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin: 0 !important;
+  width: 100%;
+  z-index: auto !important;
+  max-height: 60px;
+}
+.region-header .block {
+  background-color: #20262e;
+}
+
+/* =============================================================================
+ *   Block Styling
+ * ========================================================================== */
+.block {
+  margin-bottom: 20px;
+  line-height: 175%;
+  background: #ffffff;
+  padding: 15px;
+  padding-bottom: 45px !important;
+}
+
+.block-views,
+.block-views .block,
+.region .block-simpleads,
+.region .block-simpleads .block {
+  padding-bottom: 0px !important;
+}
+
+.block-simpleads {
+  margin-top: -80px !important;
+}
+
+.block.block-menu-not-loged-in-users {
+  padding-bottom: 10px !important;
+}
+
+.region .block {
+  margin: 0px;
+  padding: 0px;
+}
+
+#block-system-main-menu {
+  padding-bottom: 100%;
+  background: #ffffff;
+  margin-top: -61px !important;
+}
+
+#block-views-usuarios-block-1 {
+  padding-top: 10px;
+  height: 100% !important;
+  padding-bottom: 10px;	
+}
+
+#block-views-usuarios-block-1 .view .field-content:first-child {
+  float: right;
+  width: 160px;
+}
+
+#block-views-usuarios-block-1 .view .field-content:last-child {
+  clear: right;
+  float: right;
+  width: 350px;
+  padding-top: 7px;
+}
+
+.not-logged-in .block ul li a {
+  border-top: 0px;
+  color: #9EA7B3;
+}
+
+.not-logged-in .block ul li a:hover {
+  color: #6ADAE4 !important;
+}
+
+.not-logged-in .block ul li a.active {
+  font-weight: bold !important;
+}
+/* =============================================================================
+ *   Fields Styling
+ * ========================================================================== */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+textarea,
+select,
+div.form-select,
+.form-autocomplete,
+.autocomplete-deluxe-container,
+div.autocomplete-deluxe-multiple,
+.chosen-container-single .chosen-single {
+  background: #f9fafb;
+  border: 1px solid #dadee2;
+  border-radius: 0px !important;
+  margin: 0 auto;
+  width: 99.5% !important;
+  color: #3d5166;
+  padding: 0 !important;
+  text-shadow: none;
+  height: 30px !important;
+}
+
+.chosen-container-single .chosen-single {
+  padding-left: 2px !important;
+  padding-right: 2px !important;
+}
+
+textarea {
+  min-height: 80px;
+}
+
+.form-item {
+  width: 100% !important;
+}
+
+#edit-cancel,
+.form-submit,
+.art-button {
+  background: #5dade2 !important;
+  border: 0 !important;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius: 4px !important;
+  /*float: left;*/
+  line-height: 30px;
+  height: 30px;
+  margin: 0 5px 0 0 !important;
+  padding: 5px 20px !important;
+  line-height: 175% !important;
+  color: #ffffff !important;
+  font-size: 0.8em !important;
+  /*padding-bottom: 0px;*/
+  padding-top: 7px !important;
+}
+
+#edit-cancel {
+  /*height: 25px;*/
+  margin-top: 5px;
+  padding-top: 5px !important;
+}
+
+.form-submit {
+  padding-top: 2px !important;
+}
+
+.art-button {
+  margin-bottom: 20px;
+}
+
+.view-citas .view-header .art-button {
+  /*position: absolute;
+  margin-top: -30px;*/
+}
+.view-citas .view-header .date-heading {
+  /*margin-top: 40px;*/
+}
+
+.button_field.form-submit.ajax-processed {
+  height: 36px;
+  margin-top: 0px;
+}
+
+.field-type-field-collection-form table tr {
+  display: flex;
+}
+
+.field-type-field-collection-form table.field-multiple-table,
+.field-type-field-collection-form table.field-multiple-table tr td:not(.field-multiple-drag) {
+  width: 100%;
+  padding: 0px;
+}
+
+.field-type-field-collection-form table tr td div.form-item {
+  width: 98% !important;
+}
+
+.art-button:hover,
+.art-button:focus,
+.form-submit:focus,
+.form-submit:hover,
+.view ul.pager > li:hover {
+  color: #ffffff !important;
+  background: rgba(131, 191, 231, 0.8) !important;
+}
+
+fieldset table td .form-submit.ajax-processed {
+  margin-top: 32px;
+}
+
+.form-item .description {
+  white-space: normal;
+}
+
+div.autocomplete-deluxe-throbber {
+  margin-top: -25px;
+  position: relative;
+}
+
+span.button-operator{display: none;}
+
+/******************************************************************************
+ * Menu Superfish
+ *****************************************************************************/
+#admin-menu li > a {
+  line-height: normal;
+  min-height: auto;
+}
+
+.block-superfish {
+  position: relative !important;
+  margin-top: -60.6px !important;
+  margin-right: 10px !important;
+}
+
+.block-superfish a{font-size: 16px !important;}
+
+.block-superfish .block-inner {
+  margin-left: 1px;
+  margin-right: 1px;
+}
+ 
+ul.menu li ul.sf-megamenu {
+  float: left !important;
+  width: 98% !important; 
+}
+ 
+.sf-menu.menu,
+.sf-menu.menu li {
+  width: 100%;
+}
+.sf-menu ul {
+  float: left !important;
+  margin: 0px !important;
+  position: relative !important;
+  left: 0px !important;
+}
+
+.sf-menu ul ol li {
+	border: 0px !important;
+}
+
+.sf-menu li a.menuparent + .sf-megamenu.sf-hidden {
+  visibility: hidden !important;
+  display: none !important;
+}
+
+ul.menu li ul.sf-megamenu li:last-child {
+  float: left;
+  margin-top: 0;
+  margin-bottom: -1px;
+}
+
+ul.menu li ol {
+  border: 0 none;
+  float: left;
+  margin-left: -1px;
+}
+
+ul.menu li ul.sf-megamenu {
+  margin-left: 2px !important;
+  margin-right: 1px !important;
+  padding: 0;
+}
+
+/* =============================================================================
+ *   List, Menus
+ * ========================================================================== */
+.block-menu,
+.block-menu .block-inner,
+.block-menu .block-inner ul,
+.block-menu .block-inner ul li {
+  padding: 0px;
+  margin: 0px;
+}
+
+.block-menu ul li {
+  margin-left: 1px !important;
+  width: 99%;
+}
+
+ul.menu li li {
+  border:1px solid #DDDDDD;
+  border-top:none;
+  border-bottom:none;
+  margin:0 auto;
+  position: relative;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  border-width: medium 1px;
+}
+
+ul.menu li li:last-child {
+  border-bottom: 1px solid #DDDDDD;
+}
+.block-menu ul li ul {
+  margin-left: -1px !important;
+  width: 100%;
+}
+.block-menu ul ul li {
+  padding: 0px !important;
+  width: 100%;
+}
+
+ul.menu a {
+  display: block;
+  font-size: 0.8em;
+}
+
+ul,
+ul li,
+ul.menu li.collapsed,
+ul li.expanded,
+ul.menu li.expanded,
+ul.menu li.leaf {
+  list-style-image: none !important;
+  list-style-type: none !important;
+}
+
+ul.menu > li:first-child {
+  margin-top: 0;
+}
+
+ul ul li a,
+.nav .block-menu ul > li > a,
+ul.menu > li > a {
+  border-top: 1px solid #DADEE2;
+  color: #363E49;
+  line-height: 34px;
+  margin: 0 auto;
+  min-height: 34px;
+}
+
+ul.menu li {
+  color: #363e49 !important;
+}
+
+ul li.fa::before {
+  float: left;
+  margin-top: 10px;
+  padding-left: 10px;
+  position: absolute;
+  z-index: 9;
+}
+
+#block-menu-menu-documentos-legales ul li.fa::before {
+  position: relative;
+}
+
+ul li ul li.fa::before {
+  padding-left: 20px;
+}
+
+ul.menu li a {
+  padding-left: 30px;
+}
+
+ul.menu li ul li a {
+  padding-left: 40px;
+}
+
+ul.menu li:hover,
+ul.pager a {
+  color: #ffffff !important;
+}
+
+ul.menu ul a.active,
+ul.menu ul a:hover,
+ul.menu ul a.active:hover,
+ul.menu ul a:focus {
+  background: #6ADAE4;
+  margin:0 auto;
+  font-weight: bold !important;
+}
+
+ul.menu li:hover > ul li {
+  color: #363e49;
+}
+
+ul li ol,
+ul.chosen-results li.group-option {
+  width: 100% !important;	
+}
+
+.ul_li_hover > a {
+  background: #323A45;
+  border-top:1px solid #DADEE2;
+  color: #ffffff !important;
+}
+
+
+ul.menu ul li:focus,
+ul.menu ul li ul li:focus {
+  background: #ffffff;
+  border-top:1px solid #DADEE2;
+  color: #DADEE2;
+}
+
+ul.menu li ul li:hover > a {
+  background: #6ADAE4;
+  color: #DADEE2;
+}
+
+.not-logged-in .block {
+  margin: auto !important;
+  max-width: 58%;
+  min-width: 200px;
+  width: auto;
+  padding: 15px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  margin-bottom: 10px !important;
+}
+
+.not-logged-in ul.menu {
+  text-align: center;	
+}
+
+.not-logged-in ul li:not(#lightbox ul li) {
+  display: inline-block;
+  width: 23%;
+}
+
+.not-logged-in #block-menu-menu-not-loged-in-users ul li {
+  display: inline-block;
+  width: auto !important;
+  padding-left: 20px;
+}
+
+.not-logged-in ul li > a {
+  text-decoration: underline;
+  font-size: 1em !important;
+  padding-left: 0px;
+  text-align:left;
+}
+
+.not-logged-in ul li.icon-cog:hover {
+  color: #6ADAE4 !important;
+}
+
+.not-logged-in ul li:hover > a {
+  background: none !important;
+  color: #DADEE2 !important;
+}
+
+.not-logged-in #modalContainer .block {
+  max-width: 95% !important;
+}
+
+#block-menu-menu-not-loged-in-users {
+  padding: 10px;
+}
+
+/* =============================================================================
+ *   Boxes box
+ * ========================================================================== */
+#block-boxes-positive-ssl.block {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+#boxes-box-positive_ssl {
+  margin-left: 20% !important;
+}
+
+#block-boxes-positive-ssl.block,
+#block-menu-menu-documentos-legales {
+  background: none !important;
+  margin: 0px auto !important;
+}
+
+#block-menu-menu-documentos-legales {
+  width: 48%;
+}
+
+#block-menu-menu-documentos-legales ul li {
+  display: inline-flex;
+  width: auto !important;
+}
+
+#block-menu-menu-documentos-legales .block-menu ul li {
+  width: auto !important;
+}
+
+/* =============================================================================
+ *   VIEWS
+ * ========================================================================== */
+.view ul.pager li  {
+  background: #5dade2 !important;
+  padding: 5px !important;
+}
+
+.view-empty {
+  padding-bottom: 50px;
+}
+
+/* =============================================================================
+ *   NODES
+ * ========================================================================== */
+.node {
+  width: 100%;
+}
+/*
+.not-logged-in #page-wrapper {
+    background: url("../css/images/bg.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.not-logged-in div#page,
+.not-logged-in #secondary-content-wrapper {
+    background-color: initial !important;
+}
+*/
+.not-logged-in ,
+.not-logged-in #page-wrapper,
+.not-logged-in #page-wrapper #page{
+	height:100%;
+}
+
+
+/**
+ * Cambios septiembre, 2016
+ * pagina principal para los usuarios anonimos
+ */
+ #page-home-site {
+   margin-top: -15px;
+ }
+.not-logged-in.page-home .block-region-content.block-main {
+  max-width: 100%;
+  background: none;
+  margin-top: 100px;
+}
+.not-logged-in .region-header {
+  min-height: 85px !important;
+}
+.not-logged-in .block-region-header.logo-no-login .block-content {
+  background: none; 
+  width: 90px;
+  margin: -8px !important;
+}
+.not-logged-in.page-home #block-user-login {
+  width: 100%;
+  font-size: 12px;
+  margin-top: -23px !important;
+  float: right;
+  clear: right;
+  min-width: 700px;
+  max-width: 750px;
+}
+.not-logged-in.page-home .block-region-content .pane-formblock {
+  max-width: 80% !important;
+}
+.not-logged-in.page-home #block-user-login #user-login-form .form-item {
+  width: 39% !important;
+  display: inline-block;
+  margin-left: 10px;
+}
+.not-logged-in.page-home #block-user-login #user-login-form .form-item input {
+  height: 25px !important;
+}
+.not-logged-in.page-home #block-user-login #user-login-form .form-actions {
+  float: right;
+  margin-top: -53px;
+  font-size: 16px;
+}
+.not-logged-in.page-home #block-user-login #user-login-form .item-list {
+  margin-left: 43.5%;
+}
+.not-logged-in.page-home #block-user-login .block-title,
+.not-logged-in.page-home #block-user-login #user-login-form .item-list ul li.first {
+  display: none;
+}
+.not-logged-in.page-home #block-user-login #user-login-form .item-list ul li.last {
+  margin-top: -8px;
+}
+.not-logged-in.page-home #user-register-form .password-confirm,
+.not-logged-in.page-home #user-register-form .password-strength-title,
+.not-logged-in.page-home #user-register-form .fieldset-legend,
+.not-logged-in.page-home #user-register-form .form-item .description,
+.not-logged-in.page-home #user-register-form .field-widget-markup .description,
+.not-logged-in.page-home #user-register-form .fieldset-description {
+  line-height: 18px;
+  font-size: 0.7em;
+}
+.not-logged-in.page-home #user-register-form .form-item label {
+  font-size: 0.9em;
+}
+.not-logged-in.page-home #user-register-form .form-item.form-type-checkbox {
+  margin-top: -10px;
+}
+.not-logged-in.page-home #user-register-form #edit-account .form-item .description {
+  display: none !important;
+}
+.not-logged-in #block-menu-menu-not-loged-in-users ul li,
+.not-logged-in #block-menu-menu-documentos-legales ul li {
+  display: block !important;
+}
+.not-logged-in #block-menu-menu-documentos-legales,
+.not-logged-in #block-menu-menu-not-loged-in-users {
+  width: 20% !important;
+}
+.not-logged-in #user-register-form .field-name-field-especialidad {
+  margin-bottom: -33px;
+}
+.not-logged-in .region .block-region-footer {
+  display: inline-block;
+}
+.not-logged-in .region.region-footer .region-inner {
+  margin: auto;
+  width: 55%;
+}
+.not-logged-in.page-home #user-register-form #edit-account {
+  margin-top: -10px;
+}
+.not-logged-in.page-home #user-register-form #edit-account .form-item-name,
+.not-logged-in.page-home #user-register-form #edit-account .form-item-mail,
+.not-logged-in.page-home #user-register-form .field-name-field-nombre,
+.not-logged-in.page-home #user-register-form .field-name-field-apellido {
+  width: 49.5% !important;
+  display: inline-block;
+  margin-bottom: -25px;
+}
+.not-logged-in.page-home #user-register-form .password-strength {
+  margin-top: -10px;
+}
+.not-logged-in.page-home .region-two-50-first .block {
+  background: none;
+  max-width: 85%;
+  margin-top: 10% !important;
+}
+.not-logged-in .region-header .block {
+  border-left: 0px;
+  border-right: 0px;
+}
+.not-logged-in #user-register-form #edit-timezone {
+  display: none;
+}
+.not-logged-in.page-home .block.block-region-content,
+.not-logged-in.page-home .block .pane-formblock-user-register {
+  margin-bottom: 0px !important;
+  padding-bottom: 0px !important;
+}
+.field-name-field-documentos-legales {
+  display: none !important;    
+}
+.not-logged-in #user-register-form .field-name-field-documentos-legales {
+  display: block !important;    
+}
+/** mensaje de bienvenida, pagina principal **/
+.message-text-info-site  span {
+  font-size: 2em;
+  color: #6B6565;
+  /*text-shadow: #000000 1px 1px;*/
+  /*font-weight: bold;*/
+}
+.message-text-info-site {
+  text-align: left;
+  padding-top: 35px;
+  margin-top: -50px;
+}
+
